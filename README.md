@@ -11,7 +11,6 @@ Future plans include integrating it with a smart door-lock system.
 - Captures images and video using the Pi Camera  
 - Trains facial encodings from a local dataset  
 - Performs real-time facial recognition  
-- Processes data indoors for improved security
 
 ---
 
@@ -81,6 +80,7 @@ python model_training.py
 # process_every_n_frames = 5
 # Increase the number to process less often (less CPU), decrease to process more often (faster recognition) -- I found that anything larger than 10 wont be able to keep up with normal movement
 # With none of the code changed you get around 6-10 FPS with face in frame.
+# cv_scale can also be changed based on the distance you would like the model to recognize faces from. cv_scale trades recognition distance for speed — higher is faster, lower sees farther.
 python facial_recognition.py
 
 #Press q to exit the video window.
