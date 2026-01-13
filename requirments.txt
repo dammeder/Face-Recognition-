@@ -1,5 +1,0 @@
-face-recognition
-opencv-python
-numpy 
-imutils 
-
