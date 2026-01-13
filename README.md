@@ -64,7 +64,6 @@ dataset/
 
 ## 🔹 How to Run
 
-1. **Install dependencies**
 
 ```bash
 # Install dependencies 
